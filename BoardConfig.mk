@@ -9,7 +9,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/lotus/bluetooth
 #inherit from the common montblanc definitions
 -include device/sony/montblanc-common/BoardConfigCommon.mk
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/lotus/include
+TARGET_SPECIFIC_HEADER_PATH := device/sony/lotus/include
 
 TARGET_KERNEL_CONFIG := cm_montblanc_lotus_defconfig
 
