@@ -1,1 +1,2 @@
 add_lunch_combo cm_lotus-eng
+add_lunch_combo cm_lotus-userdebug
