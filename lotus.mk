@@ -19,6 +19,10 @@ $(call inherit-product-if-exists, vendor/sony/lotus/lotus-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/sony/lotus/overlay
 
+
+TARGET_SPECIFIC_HEADER_PATH := device/sony/pepper/include
+
+
 # Inherit the montblanc-common definitions
 $(call inherit-product, device/sony/montblanc-common/montblanc.mk)
 
